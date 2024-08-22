@@ -9,8 +9,35 @@ const heros = ["afsf", "eqed", "fefwf"] //array
 
 
 let myObj = {             //object
-    name: "joel"
+    name: "joel",
     age:65,
 }
 
+
+
+//+++++++++++++++++++++++++++++++
+
+
+//Stack(primitive)==>will get the copy of variable,Heap(non primitive)
+
+let myYoutubename ="joeldotcom"
+
+let anothername = myYoutubename
+anothername = "joelmathew"
+console.log(myYoutubename);
+
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@kjii"
+}
+ let userTwo = userOne
+
+ userTwo.email = "joel@gmail.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+ 
 
